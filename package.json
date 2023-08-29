@@ -1,0 +1,22 @@
+{
+  "name": "cli-x-post",
+  "version": "1.0.0",
+  "description": "Post on x.com about your Github project progress from a command-line interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "inquirer": "^9.2.10"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^20.5.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
